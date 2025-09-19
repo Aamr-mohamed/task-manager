@@ -1,73 +1,59 @@
-/**
- * Google Tasks Dark Mode inspired theme
- * Dark, minimal, and clean design
- */
-
 export const AppColors = {
-  // Primary theme colors (Google Tasks blue)
   primary: {
-    main: '#1A73E8',      // Google Blue
-    dark: '#1557B0',      // Darker Google Blue  
-    light: '#4285F4',     // Lighter Google Blue
-    accent: '#1A73E8',    // Same as main
+    main: '#1A73E8',      
+    dark: '#1557B0',        
+    light: '#4285F4',     
+    accent: '#1A73E8',    
   },
   
-  // Background colors (Dark theme)
   background: {
-    primary: '#1F1F1F',   // Dark gray (main background)
-    secondary: '#2D2D2D', // Slightly lighter gray (cards)
-    tertiary: '#3C3C3C',  // Even lighter gray (elevated elements)
-    overlay: 'rgba(0, 0, 0, 0.8)', // Modal overlay
+    primary: '#1F1F1F',    
+    secondary: '#2D2D2D', 
+    tertiary: '#3C3C3C',  
+    overlay: 'rgba(0, 0, 0, 0.8)', 
   },
   
-  // Priority colors (muted in dark mode)
   priority: {
-    low: '#34A853',       // Google Green (muted)
-    medium: '#FBBC04',    // Google Yellow (muted)
-    high: '#EA4335',      // Google Red (muted)
-    critical: '#EA4335',  // Same as high
+    low: '#34A853',       
+    medium: '#FBBC04',    
+    high: '#EA4335',      
+    critical: '#EA4335',  
   },
   
-  // Category colors (Google inspired)
   category: {
-    work: '#1A73E8',      // Google Blue
-    personal: '#34A853',  // Google Green
-    shopping: '#FBBC04',  // Google Yellow
-    health: '#EA4335',    // Google Red
-    other: '#9AA0A6',     // Google Gray
+    work: '#1A73E8',      
+    personal: '#34A853',  
+    shopping: '#FBBC04',  
+    health: '#EA4335',    
+    other: '#9AA0A6',     
   },
   
-  // Status colors
   status: {
-    completed: '#34A853', // Google Green
-    pending: '#FBBC04',   // Google Yellow
-    overdue: '#EA4335',   // Google Red
+    completed: '#34A853', 
+    pending: '#FBBC04',   
+    overdue: '#EA4335',   
   },
   
-  // Text colors (Dark theme)
   text: {
-    primary: '#E8EAED',   // Light gray (main text)
-    secondary: '#9AA0A6', // Medium gray (secondary text)
-    tertiary: '#5F6368',  // Darker gray (disabled/muted)
-    inverse: '#202124',   // Dark text for light backgrounds
+    primary: '#E8EAED',   
+    secondary: '#9AA0A6', 
+    tertiary: '#5F6368',  
+    inverse: '#202124',   
   },
   
-  // Interactive elements (Dark theme)
   interactive: {
-    hover: '#3C3C3C',     // Lighter dark gray
-    pressed: '#4A4A4A',   // Even lighter gray
-    disabled: '#2D2D2D',  // Same as secondary background
-    focus: '#1A73E8',     // Google blue
+    hover: '#3C3C3C',     
+    pressed: '#4A4A4A',   
+    disabled: '#2D2D2D',  
+    focus: '#1A73E8',     
   },
   
-  // Borders and dividers (Dark theme)
   border: {
-    light: '#3C3C3C',     // Subtle dark border
-    medium: '#5F6368',    // Medium dark border
-    dark: '#9AA0A6',      // Lighter border
+    light: '#3C3C3C',     
+    medium: '#5F6368',    
+    dark: '#9AA0A6',     
   },
   
-  // Shadow colors (Dark theme - more subtle)
   shadow: {
     light: 'rgba(0, 0, 0, 0.2)',
     medium: 'rgba(0, 0, 0, 0.3)',
@@ -85,7 +71,7 @@ export const AppSpacing = {
 };
 
 export const AppBorderRadius = {
-  sm: 8,    // Google Tasks uses slightly rounded corners
+  sm: 8,    
   md: 12,
   lg: 16,
   xl: 20,

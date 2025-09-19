@@ -1,19 +1,13 @@
-/**
- * Todo Context Provider with comprehensive CRUD operations
- * Implements proper state management with React Context and hooks
- */
-
 import {
-    CreateTodoInput,
-    Todo,
-    TodoCategory,
-    TodoContextType,
-    TodoPriority,
-    UpdateTodoInput
+  CreateTodoInput,
+  Todo,
+  TodoCategory,
+  TodoContextType,
+  TodoPriority,
+  UpdateTodoInput
 } from '@/types/todo';
 import React, { createContext, useCallback, useContext, useReducer } from 'react';
 
-// Action types for the reducer
 type TodoAction =
   | { type: 'ADD_TODO'; payload: Todo }
   | { type: 'UPDATE_TODO'; payload: UpdateTodoInput }

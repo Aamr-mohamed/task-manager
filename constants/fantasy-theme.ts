@@ -1,8 +1,3 @@
-/**
- * Fantasy-themed color palette and styling constants
- * Inspired by mystical and magical themes
- */
-
 export const FantasyColors = {
   // Primary magical theme colors
   primary: {
@@ -31,11 +26,11 @@ export const FantasyColors = {
   
   // Category colors
   category: {
-    quest: '#FF6B35',     // Adventure Orange
-    spell: '#7B68EE',     // Magic Blue
-    adventure: '#32CD32', // Forest Green
-    treasure: '#FFD700',  // Gold
-    other: '#9E9E9E',     // Neutral Gray
+    quest: '#FF6B35',     
+    spell: '#7B68EE',     
+    adventure: '#32CD32', 
+    treasure: '#FFD700',  
+    other: '#9E9E9E',     
   },
   
   // Status colors
