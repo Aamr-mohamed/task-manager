@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+## 🚀 Installation
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/) (optional but recommended)
 
-## Get started
+### Getting Started
 
-1. Install dependencies
+1. **Clone or download the project**
+   ```bash
+   cd todo-app
+   ```
 
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Start the development server**
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. **Run the app**
+   - **Web**: Press `w` in the terminal or visit `http://localhost:8081`
+   - **Mobile (Expo Go)**: Scan the QR code with the Expo Go app
+   - **Android Emulator**: Press `a` in the terminal
+   - **iOS Simulator**: Press `i` in the terminal (macOS only)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 📁 Project Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+todo-app/
+├── app/                    # Main app screens
+├── components/             # Reusable UI components
+│   └── todo/              # Todo-specific components
+├── constants/             # App themes and constants
+├── contexts/              # React Context providers
+├── types/                 # TypeScript type definitions
+└── utils/                 # Utility functions
+```
