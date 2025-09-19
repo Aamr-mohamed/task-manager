@@ -1,4 +1,4 @@
-# Todo App - Google Tasks Dark Mode
+# Todo App
 
 A modern, feature-rich todo application built with React Native and Expo, featuring a clean interface with comprehensive task management capabilities.
 
